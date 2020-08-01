@@ -66,7 +66,7 @@
 						{
 							"id": 133,
 							"name": "Cut Off the Head",
-							"description": "[i]End Game Objective[/i]\nAt the end of the battle, you score a number of victory points if the enemy ᴡᴀʀʟᴏʀᴅ was destroyed during the battle. The number of victory points scored depends on the battle round during which the enemy ᴡᴀʀʟᴏʀᴅ was destroyed, as shown in the table below.\n\n[u]Battle Round | Victory Points[/u]\n1            | 13\n2            | 10\n3            |  6\n4            |  3\n5            |  1\n\nIf an enemy ᴡᴀʀʟᴏʀᴅ was destroyed, but was then resurrected or otherwise returned to the battlefield and subsequently destroyed again, then for the purposes of this secondary objective it was destroyed during the battle round in which it was last removed from the battlefield."
+							"description": "[i]End Game Objective[/i]\nAt the end of the battle, you score a number of victory points if the enemy ᴡᴀʀʟᴏʀᴅ was destroyed during the battle. The number of victory points scored depends on the battle round during which the enemy ᴡᴀʀʟᴏʀᴅ was destroyed, as shown in the table below.\n\n[u]Battle Round | Victory Points[/u]\n                    1  | 13\n                    2  | 10\n                    3  |  6\n                    4  |  3\n                    5  |  1\n\nIf an enemy ᴡᴀʀʟᴏʀᴅ was destroyed, but was then resurrected or otherwise returned to the battlefield and subsequently destroyed again, then for the purposes of this secondary objective it was destroyed during the battle round in which it was last removed from the battlefield."
 						},
 						{
 							"id": 134,
@@ -86,7 +86,7 @@
 						{
 							"id": 142,
 							"name": "Investigate Sites",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time a unit from your army successfully completes the following action:\n\nInvestigate Site (Action): One ɪɴғᴀɴᴛʀʏ unit (excluding ᴄʜᴀʀᴀᴄᴛᴇʀS) from your army can start to perform this action at the end of your Movement phase if it is within 6” of the centre of the battlefield and no enemy units (excluding ᴀɪʀᴄʀᴀғᴛ) are within 6” of the battlefield. The action is completed at the end of your turn."
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time a unit from your army successfully completes the following action:\n\nInvestigate Site (Action): One ɪɴғᴀɴᴛʀʏ unit (excluding ᴄʜᴀʀᴀᴄᴛᴇʀs) from your army can start to perform this action at the end of your Movement phase if it is within 6” of the centre of the battlefield and no enemy units (excluding ᴀɪʀᴄʀᴀғᴛ) are within 6” of the battlefield. The action is completed at the end of your turn."
 						},
 						{
 							"id": 143,
