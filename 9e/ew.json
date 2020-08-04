@@ -1,121 +1,348 @@
 {
-	"ver": "EW_9e_01",
-	"name": "Eternal War",
-	"factions": [
-		{
-			"name": "Generic",
-			"categories": [
-				{
-					"name": "Purge the Enemy",
-					"objectives": [
-						{
-							"id": 111,
-							"name": "Assassinate",
-							"description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy ᴄʜᴀʀᴀᴄᴛᴇʀ model that is destroyed."
-						},
-						{
-							"id": 112,
-							"name": "Bring it Down",
-							"description": "[i]End Game Objective[/i]\nScore 2 victory points at the end of the battle for each enemy ᴍᴏɴsᴛᴇʀ or ᴠᴇʜɪᴄʟᴇ model with a Wounds characteristic of 10 or less that is destroyed, and 2 victory points for each enemy ᴍᴏɴsᴛᴇʀ or ᴠᴇʜɪᴄʟᴇ model with a Wounds characteristic of 11 or more that is destroyed."
-						},
-						{
-							"id": 113,
-							"name": "Titan Slayers",
-							"description": "[i]End Game Objective[/i]\nScore 10 victory points at the end of the battle if one enemy ᴛɪᴛᴀɴɪᴄ model is destroyed, or 15 victory points if two or more enemy ᴛɪᴛᴀɴɪᴄ models are destroyed."
-						},
-						{
-							"id": 114,
-							"name": "Slay the Warlord",
-							"description": "[i]End Game Objective[/i]\nScore 6 victory points at the end of the battle if the enemy ᴡᴀʀʟᴏʀᴅ is destroyed."
-						}
-					]
-				},
-				{
-					"name": "No Mercy, No Respite",
-					"objectives": [
-						{
-							"id": 121,
-							"name": "Thin Their Ranks",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of kill points; each time an enemy model is destroyed, add 1 to this tally (add 10 to this tally instead if the model that was destroyed had a Wounds characteristic of 10 or more). A model can, if it is resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially add several points to this tally (assuming it is resurrected and destroyed several times over). At the end of the battle, divide your kill points tally by 10 and round down - the result is the number of victory points you score."
-						},
-						{
-							"id": 122,
-							"name": "Attrition",
-							"description": "[i]Progressive Objective[/i]\nScore 4 victory points at the end of the battle round if more enemy units than friendly units were destroyed this battle round."
-						},
-						{
-							"id": 123,
-							"name": "While We Stand, We Fight",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle you must identify which three models from your army (excluding models with the fortification battlefield role) have the highest points value, and make a note of them on your army roster (if two or more models are tied, you can choose between them). If your army has three or fewer models, then you instead identify all the units in your army. A model’s points cost includes the points of all weapons and wargear it is equipped with. You score 5 victory points for each of the models that are on the battlefield at the end of the battle."
-						},
-						{
-							"id": 124,
-							"name": "First Strike",
-							"description": "[i]End Game Objective[/i]\nScore 5 victory points at the end of the battle if any enemy units were destroyed in the first battle round, and score an additional 3 victory points if more enemy units than friendly units were destroyed in the first battle round."
-						}
-					]
-				},
-				{
-					"name": "Battlefield Supremacy",
-					"objectives": [
-						{
-							"id": 131,
-							"name": "Engage on All Fronts",
-							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if you have one or more units from your army wholly within three different table quarters, and those units are all more than 6” from the centre of the battlefield. Score 3 victory points instead if you have one or more units from your army wholly within each table quarter, and those units are all more than 6” from the centre of the battlefield."
-						},
-						{
-							"id": 132,
-							"name": "Linebreaker",
-							"description": "[i]Progressive Objective[/i]\nScore 4 victory points at the end of your turn if two or more units from your army (excluding ᴀɪʀᴄʀᴀғᴛ)are wholly within your opponent’s deployment zone."
-						},
-						{
-							"id": 133,
-							"name": "Domination",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points if you control more than half the total number of objective markers on the battlefield at the end of your turn."
-						}
-					]
-				},
-				{
-					"name": "Shadow Operations",
-					"objectives": [
-						{
-							"id": 141,
-							"name": "Investigate Sites",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time a unit from your army successfully completes the following action:\n\nInvestigate Site (Action): One ɪɴғᴀɴᴛʀʏ unit (excluding ᴄʜᴀʀᴀᴄᴛᴇʀs) from your army can start to perform this action at the end of your Movement phase if it is within 6” of the centre of the battlefield and no enemy units (excluding ᴀɪʀᴄʀᴀғᴛ) are within 6” of the battlefield. The action is completed at the end of your turn."
-						},
-						{
-							"id": 142,
-							"name": "Repair Teleport Homer",
-							"description": "[i]Progressive Objective[/i]\nScore 5 victory points each time a unit from your army successfully completes the following action:\n\nRepair Teleport Homer (Action): One ɪɴғᴀɴᴛʀʏ unit from your army can start to perform this action at the end of your Movement phase if it is wholly within your opponent’s deployment zone. The action is completed at the end of your next Command phase provided the unit attempting it is still wholly within your opponent’s deployment zone."
-						},
-						{
-							"id": 143,
-							"name": "Raise the Banners High",
-							"description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then units in your army can perform the following action:\n\nRaise Banners (Action): One or more ɪɴғᴀɴᴛʀʏ units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be in range of a different objective marker that does not have one of your banners raised upon it (see below). A unit cannot start this action while there are any enemy units (excluding ᴀɪʀᴄʀᴀғᴛ) in range of the same objective marker. The action is completed at the end of your turn. If this action is successfully completed, that objective marker is said to have one of your army’s banners raised on it (the banner is ‘removed’ if your opponent controls the objective marker at the start of any phase). You score 1 victory point at the end of each of your Command phases, and 1 victory point at the end of the battle, for each objective marker on the battlefield that has one of your banners raised upon it."
-						}
-					]
-				},
-				{
-					"name": "Warpcraft",
-					"objectives": [
-						{
-							"id": 151,
-							"name": "Mental Interrogation",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action:\n\nMental Interrogation (Psychic Action - Warp Charge 4): One ᴘsʏᴋᴇʀ ᴄʜᴀʀᴀᴄᴛᴇʀ from your army can attempt to perform this psychic action in your Psychic phase if it is within 18” of an enemy Character models."
-						},
-						{
-							"id": 152,
-							"name": "Psychic Ritual",
-							"description": "[i]End Game Objective[/i]\nScore 15 victory points at the end of the battle if any unit from your army successfully completed the following psychic action 3 times during the battle:\n\nPsychic Ritual (Psychic Action - Warp Charge 3): One ᴘsʏᴋᴇʀ ᴄʜᴀʀᴀᴄᴛᴇʀ unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6” of the centre of the battlefield."
-						},
-						{
-							"id": 153,
-							"name": "Abhor the Witch",
-							"description": "[i]End Game Objective[/i]\nYou cannot select this secondary objective if your army includes any ᴘsʏᴋᴇʀ units. Score 5 victory points at the end of the battle for each enemy ᴘsʏᴋᴇʀ ᴄʜᴀʀᴀᴄᴛᴇʀ that is destroyed, and 3 victory points for every other enemy ᴘsʏᴋᴇʀ unit that is destroyed."
-						}
-					]
-				}
-			]
-		}
-	]
+  "ver": "EW_9e_01",
+  "name": "Eternal War",
+  "factions": [
+    {
+      "name": "Generic",
+      "categories": [
+        {
+          "name": "Purge the Enemy",
+          "objectives": [
+            {
+              "id": "EW.01.01.01",
+              "name": "Assassinate",
+              "description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy ᴄʜᴀʀᴀᴄᴛᴇʀ model that is destroyed."
+            },
+            {
+              "id": "EW.01.01.02",
+              "name": "Bring it Down",
+              "description": "[i]End Game Objective[/i]\nScore 2 victory points at the end of the battle for each enemy ᴍᴏɴsᴛᴇʀ or ᴠᴇʜɪᴄʟᴇ model with a Wounds characteristic of 10 or less that is destroyed, and 2 victory points for each enemy ᴍᴏɴsᴛᴇʀ or ᴠᴇʜɪᴄʟᴇ model with a Wounds characteristic of 11 or more that is destroyed."
+            },
+            {
+              "id": "EW.01.01.03",
+              "name": "Titan Slayers",
+              "description": "[i]End Game Objective[/i]\nScore 10 victory points at the end of the battle if one enemy ᴛɪᴛᴀɴɪᴄ model is destroyed, or 15 victory points if two or more enemy ᴛɪᴛᴀɴɪᴄ models are destroyed."
+            },
+            {
+              "id": "EW.01.01.04",
+              "name": "Slay the Warlord",
+              "description": "[i]End Game Objective[/i]\nScore 6 victory points at the end of the battle if the enemy ᴡᴀʀʟᴏʀᴅ is destroyed."
+            }
+          ]
+        },
+        {
+          "name": "No Mercy, No Respite",
+          "objectives": [
+            {
+              "id": "EW.01.02.01",
+              "name": "Thin Their Ranks",
+              "description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of kill points; each time an enemy model is destroyed, add 1 to this tally (add 10 to this tally instead if the model that was destroyed had a Wounds characteristic of 10 or more). A model can, if it is resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially add several points to this tally (assuming it is resurrected and destroyed several times over). At the end of the battle, divide your kill points tally by 10 and round down - the result is the number of victory points you score."
+            },
+            {
+              "id": "EW.01.02.02",
+              "name": "Attrition",
+              "description": "[i]Progressive Objective[/i]\nScore 4 victory points at the end of the battle round if more enemy units than friendly units were destroyed this battle round."
+            },
+            {
+              "id": "EW.01.02.03",
+              "name": "While We Stand, We Fight",
+              "description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle you must identify which three models from your army (excluding models with the fortification battlefield role) have the highest points value, and make a note of them on your army roster (if two or more models are tied, you can choose between them). If your army has three or fewer models, then you instead identify all the units in your army. A model’s points cost includes the points of all weapons and wargear it is equipped with. You score 5 victory points for each of the models that are on the battlefield at the end of the battle."
+            },
+            {
+              "id": "EW.01.02.04",
+              "name": "First Strike",
+              "description": "[i]End Game Objective[/i]\nScore 5 victory points at the end of the battle if any enemy units were destroyed in the first battle round, and score an additional 3 victory points if more enemy units than friendly units were destroyed in the first battle round."
+            }
+          ]
+        },
+        {
+          "name": "Battlefield Supremacy",
+          "objectives": [
+            {
+              "id": "EW.01.03.01",
+              "name": "Engage on All Fronts",
+              "description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if you have one or more units from your army wholly within three different table quarters, and those units are all more than 6” from the centre of the battlefield. Score 3 victory points instead if you have one or more units from your army wholly within each table quarter, and those units are all more than 6” from the centre of the battlefield."
+            },
+            {
+              "id": "EW.01.03.02",
+              "name": "Linebreaker",
+              "description": "[i]Progressive Objective[/i]\nScore 4 victory points at the end of your turn if two or more units from your army (excluding ᴀɪʀᴄʀᴀғᴛ)are wholly within your opponent’s deployment zone."
+            },
+            {
+              "id": "EW.01.03.03",
+              "name": "Domination",
+              "description": "[i]Progressive Objective[/i]\nScore 3 victory points if you control more than half the total number of objective markers on the battlefield at the end of your turn."
+            }
+          ]
+        },
+        {
+          "name": "Shadow Operations",
+          "objectives": [
+            {
+              "id": "EW.01.04.01",
+              "name": "Investigate Sites",
+              "description": "[i]Progressive Objective[/i]\nScore 3 victory points each time a unit from your army successfully completes the following action: [b]Investigate Site (Action):[/b] One ɪɴғᴀɴᴛʀʏ unit (excluding ᴄʜᴀʀᴀᴄᴛᴇʀS) from your army can start to perform this action at the end of your Movement phase if it is within 6” of the centre of the battlefield and no enemy units (excluding ᴀɪʀᴄʀᴀғᴛ) are within 6” of the battlefield. The action is completed at the end of your turn."
+            },
+            {
+              "id": "EW.01.04.02",
+              "name": "Repair Teleport Homer",
+              "description": "[i]Progressive Objective[/i]\nScore 5 victory points each time a unit from your army successfully completes the following action:\n\nRepair Teleport Homer (Action): One ɪɴғᴀɴᴛʀʏ unit from your army can start to perform this action at the end of your Movement phase if it is wholly within your opponent’s deployment zone. The action is completed at the end of your next Command phase provided the unit attempting it is still wholly within your opponent’s deployment zone."
+            },
+            {
+              "id": "EW.01.04.03",
+              "name": "Raise the Banners High",
+              "description": "[i]Progressive and End Game Objective[/i]\nIf you select this objective, then units in your army can perform the following action:\n\nRaise Banners (Action): One or more ɪɴғᴀɴᴛʀʏ units from your army can start to perform this action at the end of your Movement phase. Each unit from your army that starts to perform this action must be in range of a different objective marker that does not have one of your banners raised upon it (see below). A unit cannot start this action while there are any enemy units (excluding ᴀɪʀᴄʀᴀғᴛ) in range of the same objective marker. The action is completed at the end of your turn. If this action is successfully completed, that objective marker is said to have one of your army’s banners raised on it (the banner is ‘removed’ if your opponent controls the objective marker at the start of any phase). You score 1 victory point at the end of each of your Command phases, and 1 victory point at the end of the battle, for each objective marker on the battlefield that has one of your banners raised upon it."
+            }
+          ]
+        },
+        {
+          "name": "Warpcraft",
+          "objectives": [
+            {
+              "id": "EW.01.05.01",
+              "name": "Mental Interrogation",
+              "description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action:\n\nMental Interrogation (Psychic Action - Warp Charge 4): One ᴘsʏᴋᴇʀ ᴄʜᴀʀᴀᴄᴛᴇʀ from your army can attempt to perform this psychic action in your Psychic phase if it is within 18” of an enemy Character models."
+            },
+            {
+              "id": "EW.01.05.02",
+              "name": "Psychic Ritual",
+              "description": "[i]End Game Objective[/i]\nScore 15 victory points at the end of the battle if any unit from your army successfully completed the following psychic action 3 times during the battle:\n\nPsychic Ritual (Psychic Action - Warp Charge 3): One ᴘsʏᴋᴇʀ ᴄʜᴀʀᴀᴄᴛᴇʀ unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6” of the centre of the battlefield."
+            },
+            {
+              "id": "EW.01.05.03",
+              "name": "Abhor the Witch",
+              "description": "[i]End Game Objective[/i]\nYou cannot select this secondary objective if your army includes any ᴘsʏᴋᴇʀ units. Score 5 victory points at the end of the battle for each enemy ᴘsʏᴋᴇʀ ᴄʜᴀʀᴀᴄᴛᴇʀ that is destroyed, and 3 victory points for every other enemy ᴘsʏᴋᴇʀ unit that is destroyed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mission Specific",
+      "categories": [
+        {
+          "name": "Incisive Attack",
+          "objectives": [
+            {
+              "id": "EW.00.01.01",
+              "name": "Surgical Assault",
+              "description": "[i]Progressive[/i]\nScore 5 victory points if you control the objective marker in your opponent’s deployment zone at the end of your turn."
+            }
+          ]
+        },
+        {
+          "name": "Outriders",
+          "objectives": [
+            {
+              "id": "EW.00.02.01",
+              "name": "Survey",
+              "description": "[i]Progressive[/i]\n Score 5 victory points if you control both of the objective markers that are not in either player’s deployment zone at the end of your Command phase. This secondary objective cannot be scored in the first battle round."
+            }
+          ]
+        },
+        {
+          "name": "Encircle",
+          "objectives": [
+            {
+              "id": "EW.00.03.01",
+              "name": "Encircle",
+              "description": "[i]Progressive[/i]\nScore 3 victory points if you have at least one unit from your army (excluding AIRCRAFT) wholly within 6\" of your battlefield edge and at least one unit from your army (excluding AIRCRAFT) wholly within 6\" of your opponent's battlefield edge at the end of your turn (score 5 victory points instead if one of these units is also wholly within your opponent’s deployment zone)."
+            }
+          ]
+        },
+        {
+          "name": "Divide and Conquer",
+          "objectives": [
+            {
+              "id": "EW.00.04.01",
+              "name": "Lines od Demarcation",
+              "description": "[i]Progressive[/i]\nAt the end of your turn, you score 4 victory points if you control both objective markers labelled A, or 2 victory points if you control both objective markers labelled B."
+            }
+          ]
+        },
+        {
+          "name": "Crossfire",
+          "objectives": [
+            {
+              "id": "EW.00.05.01",
+              "name": "Outflank",
+              "description": "[i]Progressive[/i]\nAt the end of your Command phase, you score 3 victory points if you control both of the objective markers labelled A. Score 5 victory points instead if, at the end of your Command phase, you control both of the objective markers labelled A and there is at least one enemy unit within 9\" of the centre of the battlefield. This secondary objective cannot be scored in the first battle round."
+            }
+          ]
+        },
+        {
+          "name": "Centre Ground",
+          "objectives": [
+            {
+              "id": "EW.00.06.01",
+              "name": "Centre Ground",
+              "description": "[i]Progressive[/i]\n Each time a unit from your army successfully completes the following action, you score 3 victory points if you currently control one of the objective markers labelled A, or 5 victory points if you currently control both objective markers labelled A.",
+              "actions": [
+                {
+                  "id": "EW.00.06.01a",
+                  "name": "Centre Ground (Action)",
+                  "description": "[i]Action[/i]\nOne unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker labelled A and no enemy units (excluding AIRCRAFT) are within range of that objective marker. The action is completed at the end of your next Command phase so long as the unit performing it is still within range of the same objective marker."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Forward Push",
+          "objectives": [
+            {
+              "id": "EW.00.07.01",
+              "name": "Forward Push",
+              "description": "[i]Progressive[/i]\nIf you select this objective, then units in your army can perform the following action: Forward Push (Action)",
+              "actions": [
+                {
+                  "id": "EW.00.07.01a",
+                  "name": "Forward Push (Action)",
+                  "description": "[i]Action[/i]\nOne unit from your army can start to perform this action at the start of your Movement phase if it is within range of an objective marker that you control. The action is completed at the end of your turn and you score a number of victory points depending on which objective marker this action was performed on: A 1/8 , B 2/4, C 4/2, D 8/1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ransack",
+          "objectives": [
+            {
+              "id": "EW.00.08.01",
+              "name": "Ransack",
+              "description": "[i]Progressive[/i]\nScore a number of victory points at the end of your Command phase if you control one or more of the objective markers that are within your opponent's territory, as follow: 1 gives 2pt, 2 gives 3pt, 3 gives 5pt"
+            }
+          ]
+        },
+        {
+          "name": "Shifting Front",
+          "objectives": [
+            {
+              "id": "EW.00.09.01",
+              "name": "Test Their Line",
+              "description": "[i]Progressive[/i]\nScore 3 victory points at the end of your turn if two or more units from your army (excluding AIRCRAFT) are wholly within your opponent's deployment zone and at least two different battlefield edges have at least one of those units wholly within 6\" of them (if one of those battlefield edges is your opponent's battlefield edge, score 5 victory points instead). For the purposes of this objective, a unit can only count as being wholly within 6\" of one battlefield edge at a time - if a unit is within 6\" of two battlefield edges because it is in the corner of the battlefield, you can select which battlefield edge it counts as being wholly within 6\" of at the end of your turn."
+            }
+          ]
+        },
+        {
+          "name": "Retrieval Mission",
+          "objectives": [
+            {
+              "id": "EW.00.10.01",
+              "name": "Minimize losses",
+              "description": "[i]End Game[/i]\nAt the start of the battle, add up the number of units in your army — this is your army’s Strength. If a unit splits to form two or more individual units during the battle, then immediately increase your army’s Strength accordingly (e.g. if one unit in your army splits to form three individual units, your army’s Strength is increased by 2). If a unit merges with another to form a combined unit during the battle, then decrease your army’s strength accordingly (e.g. if two units from your army merge to form one unit, you immediately decrease your army’s strength by 1). At the end of the battle, add up how many units from your army are left on the battlefield, including all units embarked within TRANSPorts, but excluding all units that have been added to your army during the battle. If the total is 75% or more of your army’s Strength, score 15 victory points; if the total is less than 75%, but is 50% or more of your army's Strength, score 10 victory points; if the total is less than 50%, but is 25% or more of your army's Strength, score 5 victory points."
+            }
+          ]
+        },
+        {
+          "name": "Front-line Warfare",
+          "objectives": [
+            {
+              "id": "EW.00.11.01",
+              "name": "Vital Ground",
+              "description": "[i]Progressive[/i]\nAt the end of each of your Command phases, you score 3 victory points if you control the objective marker in your opponent's deployment zone, and score 2 victory points for each objective marker that you control that is not in either player’s deployment zone (for a maximum of 7 victory points). This secondary objective cannot be scored in the first battle round."
+            }
+          ]
+        },
+        {
+          "name": "The Four Pillars",
+          "objectives": [
+            {
+              "id": "EW.00.12.01",
+              "name": "Siphon Power",
+              "description": "[i]Progressive[/i]\nIf you select this objective, units in your army can perform the following action: Shphon Power (Action)",
+              "actions": [
+                {
+                  "id": "EW.00.12.01a",
+                  "name": "Siphon Power (Action)",
+                  "description": "[i]Action[/i]\nOne or more units from your army can start to perform this action at the end of your Movement phase. Each unit that starts to perform this action must be within range of a different objective marker. A unit cannot start this action while any enemy units (excluding AIRCRAFT) are in range of the same objective marker. The action is completed at the end of your next Command phase, and you score a number of victory points depending on how many units completed this action this phase, as follows: 1 gives 1pt, 2 gives 3pt, 3 gives 6pt, 4 gives 10pt,"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "No Man's Land",
+          "objectives": [
+            {
+              "id": "EW.00.13.01",
+              "name": "Secure No Man's Land",
+              "description": "[i]Progressive[/i]\nAt the end of each of your turns, if you control the central objective marker you score a number of victory points equal to the current battle round number (so 1 victory point in the first battle round, 2 victory points in the second battle round etc.)."
+            }
+          ]
+        },
+        {
+          "name": "Scorched Earth",
+          "objectives": [
+            {
+              "id": "EW.00.14.01",
+              "name": "Raze",
+              "description": "[i]End Game[/i]\nAt the end of the battle, a player scores 5 victory points if one objective marker was removed from the battlefield due to a successful Raze Objective action performed by a unit from their army during the battle, and 15 victory points if two objective markers were so removed.",
+               "actions": [
+					{
+					  "id": "EW.00.14.01a",
+					  "name": "Raze Objective (Action)",
+					  "description": "[i]Action[/i]\nOne unit from your army can start to perform this action at the start of your Movement phase if it is within range of an objective marker that can be razed and no enemy units (excluding AIRCRAFT) are within range of that objective marker. Player A can only attempt to raze the objective markers labelled B, and player B can only attempt to raze the objective markers labelled A. The action is completed at the end of your turn. If this action is successfully completed, that objective marker is razed and removed from the battlefield."
+					}
+				  ]
+			}
+          ]
+        },
+        {
+          "name": "Vital Intelligence",
+          "objectives": [
+            {
+              "id": "EW.00.15.01",
+              "name": "Data Intercept",
+              "description": "[i]Progressive[/i]\nEach time a unit from your army successfully completes the following action, you score a number of victory points equal to the number of objective markers you currently control:",
+              "actions": [
+                {
+                  "id": "EW.00.15.01a",
+                  "name": "Data Intercept (Action)",
+                  "description": "[i]Action[/i]\nOne unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker and no enemy units (excluding AIRCRAFT) are within range of that objective marker. The action is completed at the end of your next Command phase so long as the unit performing it is still within range of the same objective marker."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lines of Battle",
+          "objectives": [
+            {
+              "id": "EW.00.16.01",
+              "name": "Hold the Center",
+              "description": "[i]Progressive[/i]\nScore 5 victory points at the end of your Command phase if you control more objective markers labelled B than your opponent does and you have more models wholly within 12\" of the centre of the battlefield than your opponent does. This secondary objective cannot be scored in the first battle round."
+            }
+          ]
+        },
+        {
+          "name": "All-out War",
+          "objectives": [
+            {
+              "id": "EW.00.17.01",
+              "name": "Surround Them",
+              "description": "[i]Progressive and End Game[/i]\nScore 4 victory points at the end of your Command phase and at the end of the battle if you control both the objective markers in your deployment zone and one or more objective markers in your opponent's deployment zone. Score 8 victory points instead if you control all four objective markers that are in deployment zones."
+            }
+          ]
+        },
+        {
+          "name": "Pathway to Glory",
+          "objectives": [
+            {
+              "id": "EW.00.18.01",
+              "name": "Search for the Portal",
+              "description": "[i]Progressive[/i]\nEach time a unit from your army successfully completes the Search for the Portal action (see below) you score 1 victory point, plus 1 additional victory point for each objective marker labelled A that is currently under your control (for a maximum of 5 victory points).",
+              "actions": [
+                {
+                  "id": "EW.00.18.01a",
+                  "name": "Search for the Portal (Action)",
+                  "description": "[i]Action[/i]\nOne INFANTRY unit from your army (excluding CHARACTERS) can start to perform this action at the end of your Movement phase if it is wholly within the Search Area shown on the deployment map. The action is completed at the end of your next Command phase so long as the unit performing it is still wholly within the Search Area."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
