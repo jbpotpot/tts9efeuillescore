@@ -49,8 +49,8 @@
 						},
 						{
 						  "id": "EW.01.02.03",
-						  "name": "Combattons tant que nous tenons",
-						  "description": "[i]Objectif de fin de partie[/i]\nSi vous choisissez cet objectif, alors avant la bataille, identifiez les 3 figurines de votre armée (figurines avec le Rôle Tactique Fortification exclues) qui ont la valeur en points la plus élevée, et notez-les sur votre feuille d'armée (si deux figurines ou plus sont à égalité, vous pouvez choisir parmi elles). Si votre armée compte trois figurines ou moins, alors vous devez à la place identifier toutes les figurines de votre armée. La valeur en points d'une figurine inclut les points de toutes ses armes et équipements. Vous marquez 5 points de victoire pour chacune de ces figurines qui se trouve sur le champ de bataille à la fin de la bataille."
+						  "name": "Combattons tant que ...",
+						  "description": "... nous tenons \n[i]Objectif de fin de partie[/i]\nSi vous choisissez cet objectif, alors avant la bataille, identifiez les 3 figurines de votre armée (figurines avec le Rôle Tactique Fortification exclues) qui ont la valeur en points la plus élevée, et notez-les sur votre feuille d'armée (si deux figurines ou plus sont à égalité, vous pouvez choisir parmi elles). Si votre armée compte trois figurines ou moins, alors vous devez à la place identifier toutes les figurines de votre armée. La valeur en points d'une figurine inclut les points de toutes ses armes et équipements. Vous marquez 5 points de victoire pour chacune de ces figurines qui se trouve sur le champ de bataille à la fin de la bataille."
 						},
 						{
 						  "id": "EW.01.02.04",
@@ -91,8 +91,8 @@
 					},
 					{
 					  "id": "EW.01.04.02",
-					  "name": "Réparer la balise de téléportation",
-					  "description": "[i]Objectif progressif[/i]\nMarquez 5 points de victoire chaque fois qu'une unité de votre armée accomplit l'action suivante:[b]Réparer la Balise de Téléportation (Action):[/b] 1 unité d'INFANTERIE de votre armée peut commencer cette action à la fin de votre phase de Mouvement si elle est entièrement dans la zone de déploiement adverse. L'action est accomplie à la fin de votre prochaine phase de Commandement, si l'unité qui la tente est toujours entièrement dans la zone de déploiement adverse."
+					  "name": "Réparer la balise ...",
+					  "description": "... de téléportation \n[i]Objectif progressif[/i]\nMarquez 5 points de victoire chaque fois qu'une unité de votre armée accomplit l'action suivante:[b]Réparer la Balise de Téléportation (Action):[/b] 1 unité d'INFANTERIE de votre armée peut commencer cette action à la fin de votre phase de Mouvement si elle est entièrement dans la zone de déploiement adverse. L'action est accomplie à la fin de votre prochaine phase de Commandement, si l'unité qui la tente est toujours entièrement dans la zone de déploiement adverse."
 					},
 					{
 					  "id": "EW.01.04.03",
