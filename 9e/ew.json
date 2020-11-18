@@ -1,156 +1,167 @@
 {
   "ver": "EW_9e_01",
   "name": "Eternal War",
-  "factions": [
-    {
-      "name": "Generic",
-      "categories": [
-        {
-          "name": "Eliminez l'ennemi",
-          "objectives": [
-            {
-              "id": "EW.01.01.01",
-              "name": "Assassinat",
-              "description": "[i]Objectif de fin de partie[/i]\nMarquez 3 points de victoire à la fin de la bataille pour chaque figurine de PERSONNAGE ennemie qui a été détruite."
-            },
-            {
-              "id": "EW.01.01.02",
-              "name": "Abattez-le",
-              "description": "[i]Objectif de fin de partie[/i]\nMarquez 2 points de victoire à la fin de la bataille pour chaque figurine MONSTRE ou VEHICULE ennemie avec une caractéristique de PV de 10 ou moins qui a été détruite, et 3 points de victoire pour chaque figurine MONSTRE ou VEHICULE ennemie avec une caractéristique de PV de 11 ou plus qui a été détruite."
-            },
-            {
-              "id": "EW.01.01.03",
-              "name": "Tueurs de titans",
-              "description": "[i]Objectif de fin de partie[/i]\nMarquez 10 points de victoire à la fin de la bataille si 1 figurine TITANESQUE ennemie a été détruite, ou 15 points de victoire si deux figurines TITANESQUES ennemies ou plus ont été détruites."
-            },
-            {
-              "id": "EW.01.01.04",
-              "name": "Tuez le seigneur de guerre",
-              "description": "[i]Objectif de fin de partie[/i]\nMarquez 6 points de victoire à la fin de la bataille si le SEIGNEUR DE GUERRE ennemi a été détruit."
-            }
-          ]
-        },
-        {
-          "name": "Pas de Pitié, Pas de Répit",
-          "objectives": [
-            {
-              "id": "EW.01.02.01",
-              "name": "Erodez leurs rangs",
-              "description": "[i]Objectif de fin de partie[/i]\nSi vous choisissez cet objectif, gardez un compte de points de pertes infligées; chaque fois qu'une figurine ennemie est détruite, ajoutez 1 à ce compte (ajoutez 10 à ce compte à la place si la figurine qui a été détruite a une caractéristique de PV de 10 ou plus). Une figurine peut, si elle est ressuscitée pour n'importe quelle raison (ex: elle a été détruite puis a été remise en jeu sur le champ de bataille), potentiellement octroyer plusieurs points à ce compte( en supposant qu'elle a été ressuscitée puis détruire à nouveau).\nA la fin de la bataille, divisez par 10 votre compte de points de pertes infligées en arrondissant à l'entier inférieur; le résultat est le nombre de points de victoire marqués."
-            },
-            {
-              "id": "EW.01.02.02",
-              "name": "Attrition",
-              "description": "[i]Objectif progressif[/i]\nMarquez 4 points de victoire à la fin du round de bataille si plus d'unités ennemies que d'unités amies ont été détruites à ce round de bataille."
-            },
-            {
-              "id": "EW.01.02.03",
-              "name": "Combattons tant que nous tenons",
-              "description": "[i]Objectif de fin de partie[/i]\nSi vous choisissez cet objectif, alors avant la bataille, identifiez les 3 figurines de votre armée (figurines avec le Rôle Tactique Fortification exclues) qui ont la valeur en points la plus élevée, et notez-les sur votre feuille d'armée (si deux figurines ou plus sont à égalité, vous pouvez choisir parmi elles). Si votre armée compte trois figurines ou moins, alors vous devez à la place identifier toutes les figurines de votre armée. La valeur en points d'une figurine inclut les points de toutes ses armes et équipements. Vous marquez 5 points de victoire pour chacune de ces figurines qui se trouve sur le champ de bataille à la fin de la bataille."
-            },
-            {
-              "id": "EW.01.02.04",
-              "name": "Premier sang",
-              "description": "[i]Objectif de fin de partie[/i]\nMarquez 5 points de victoire à la fin de la bataille si une ou plusieurs unités ennemies ont été détruites au 1er round de bataille, et marquez 3 points de victoire supplémentaires si plus d'unités ennemies que d'unités amies ont été détruites au 1er round de bataille."
-            }
-          ]
-        },
-        {
-          "name": "Suprématie militaire",
-          "objectives": [
-            {
-              "id": "EW.01.03.01",
-              "name": "Sur tous les Fronts",
-              "description": "[i]Objectif progressif[/i]\nMarquez 2 points de victoire à la fin de votre tour si vous avez 1 unité ou plus de votre armée entièrement dans 3 quarts de table différents, et que ces unités sont toutes à plus de 6\" du centre du champ de bataille. Marquez 3 points de victoire à la place si vous avez 1 unité ou plus de votre armée entièrement dans chaque quart de table, et que toutes ces unités sont à plus de 6\" du centre du champ de bataille."
-            },
-            {
-              "id": "EW.01.03.02",
-              "name": "Briseur de Ligne",
-              "description": "[i]Objectif progressif[/i]\nMarquez 4 points de victoire à la fin de votre tour si 2 unités ou plus de votre armée (AERODYNES exclus) sont entièrement dans la zone de déploiement adverse."
-            },
-            {
-              "id": "EW.01.03.03",
-              "name": "Domination",
-              "description": "[i]Objectif progressif[/i]\nMarquez 3 points de victoire si vous contrôlez plus de la moitié du nombre total de pions objectif sur le champ de bataille à la fin de votre tour."
-            }
-          ]
-        },
-        {
-          "name": "Opérations Clandestines",
-          "objectives": [
-            {
-              "id": "EW.01.04.01",
-              "name": "Inspecter le terrain",
-              "description": "[i]Objectif progressif[/i]\nMarquez 3 points de victoire chaque fois qu'une unité de votre armée accomplit l'action suivante:[b]Inspecter le Terrain (Action):[/b] 1 unité d'INFANTERIE (PERSONNAGES exclus) de votre armée peut commencer cette action à la fin de votre phase de Mouvement  si elle est à 6\" du centre du champ de bataille et qu'aucune unité ennemie (AERODYNES exclus) ne se trouve à 6\" du centre du champ de bataille. L'action est accomplie à la fin de votre tour."
-            },
-            {
-              "id": "EW.01.04.02",
-              "name": "Réparer la balise de téléportation",
-              "description": "[i]Objectif progressif[/i]\nMarquez 5 points de victoire chaque fois qu'une unité de votre armée accomplit l'action suivante:[b]Réparer la Balise de Téléportation (Action):[/b] 1 unité d'INFANTERIE de votre armée peut commencer cette action à la fin de votre phase de Mouvement si elle est entièrement dans la zone de déploiement adverse. L'action est accomplie à la fin de votre prochaine phase de Commandement, si l'unité qui la tente est toujours entièrement dans la zone de déploiement adverse."
-            },
-            {
-              "id": "EW.01.04.03",
-              "name": "Levez haut les étendards",
-              "description": "[i]Objectif progressif et de fin de partie[/i]\nSi vous choisissez cet objectif, alors les unités de votre armée peuvent accomplir l'action suivante: [b]Lever les Etendards (Action):[/b] 1 unité d'INFANTERIE ou plus de votre armée peut commencer cette action à la fin de votre phase de Mouvement. Chaque unité de votre armée qui commence cette action doit être à portée d'un pion objectif différent sur lequel aucun de vos étendards n'a été levé. Une unité ne peut pas commencer cette action s'il y a la moindre unité ennemie (AERODYNES exclus) à portée du même pion objectif. L'action est accomplie à la fin de votre tour. Si cette action est accomplie, on dit qu'un étendard de votre armée a été levé sur ce pion objectif (l'étendard est 'retiré' si votre adversaire contrôle le pion objectif au début de n'importe quelle phase).\n Vous marquez 1 point de victoire à la fin de chacune de vos phases de Commandement, et 1 point de victoire à la fin de la bataille, pour chaque pion objectif du champ de bataille sur lequel un de vos étendards a été levé."
-            }
-          ]
-        },
-        {
-          "name": "Art du Warp",
-          "objectives": [
-            {
-              "id": "EW.01.05.01",
-              "name": "Interrogation Mentale",
-              "description": "[i]Objectif progressif[/i]\nMarquez 3 points de victoire à chaque fois que vous accomplissez l'action psychique suivante: [b]Interrogation Mentale (Action Psychique - Charge Warp 4)[/b]: 1 unité PERSONNAGE PSYKER de votre armée peut tenter d'accomplir cette action psychique à votre phase psychique si elle est à 18\" d'une ou plusieurs figurines PERSONNAGES ennemies."
-            },
-            {
-              "id": "EW.01.05.02",
-              "name": "Rituel Psychique",
-              "description": "[i]Objectif de fin de partie[/i]\nMarquez 15 points de victoire à la fin de la bataille si une même unité de votre armée a accompli l'action psychique suivante 3 fois durant la partie: [b]Rituel Psychique (Action Psychique - Charge Warp 3)[/b]: 1 unité PERSONNAGE PSYKER de votre armée peut tenter d'accomplir cette action psychique à votre phase psychique si elle est à 6\" du centre du champ de bataille."
-            },
-            {
-              "id": "EW.01.05.03",
-              "name": "Abhorrez le Sorcier",
-              "description": "[i]Objectif de fin de partie[/i] Vous ne pouvez pas choisir cet objectif secondaire si votre armée inclut la moindre unité PSYKER. Marquez 5 points de victoire à la fin de bataille pour chaque unité PERSONNAGE PSYKER ennemie qui a été détruite, et 3 points de victoire pour chaque autre unité PSYKER ennemie qui a été détruite.\n"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Specifique à la mission",
-      "categories": [
-        {
-          "name": "Attaque incisive",
-          "objectives": [
-            {
-              "id": "EW.00.01.01",
-              "name": "Assaut chirurgical",
-              "description": "[i]Objectif progressif[/i]\nMarquez 5 points de victoire si vous contrôlez le pion objectif dans la zone de déploiement adverse à la fin de votre tour."
-            }
-          ]
-        },
-        {
-          "name": "Eclaireurs",
-          "objectives": [
-            {
-              "id": "EW.00.02.01",
-              "name": "Sondage",
-              "description": "[i]Objectif progressif[/i]\nMarquez 5 points de victoire si vous contrôlez les deux pions objectifs qui ne sont dans aucune des zones de déploiement des joueurs à la fin de votre phase de Commandement. Cet objectif secondaire ne peut pas être marqué au 1er round de bataille."
-            }
-          ]
-        },
-        {
-          "name": "Encerclement",
-          "objectives": [
-            {
-              "id": "EW.00.03.01",
-              "name": "Encercler",
-              "description": "[i]Objectif progressif[/i]\nMarquez 3 points de victoire si vous avez au moins une unité de votre armée (AERODYNES exclus) entièrement à 6\" de votre bord du champ de bataille et au moins 1 unité de votre armée (AERODYNES exclus) entièrement à 6\" du bord du champ de bataille adverse à la fin de votre tour (marquez 5 points de victoire à la place si 1 de ces unités est de surcroît entièrement dans la zone de déploiement adverse)."
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "factions": 
+	[
+		{
+		  "name": "Generic",
+		  "categories": 
+			[
+				{
+				  "name": "Eliminez l'ennemi",
+				  "objectives": 
+					[
+						{
+						  "id": "EW.01.01.01",
+						  "name": "Assassinat",
+						  "description": "[i]Objectif de fin de partie[/i]\nMarquez 3 points de victoire à la fin de la bataille pour chaque figurine de PERSONNAGE ennemie qui a été détruite."
+						},
+						{
+						  "id": "EW.01.01.02",
+						  "name": "Abattez-le",
+						  "description": "[i]Objectif de fin de partie[/i]\nMarquez 2 points de victoire à la fin de la bataille pour chaque figurine MONSTRE ou VEHICULE ennemie avec une caractéristique de PV de 10 ou moins qui a été détruite, et 3 points de victoire pour chaque figurine MONSTRE ou VEHICULE ennemie avec une caractéristique de PV de 11 ou plus qui a été détruite."
+						},
+						{
+						  "id": "EW.01.01.03",
+						  "name": "Tueurs de titans",
+						  "description": "[i]Objectif de fin de partie[/i]\nMarquez 10 points de victoire à la fin de la bataille si 1 figurine TITANESQUE ennemie a été détruite, ou 15 points de victoire si deux figurines TITANESQUES ennemies ou plus ont été détruites."
+						},
+						{
+						  "id": "EW.01.01.04",
+						  "name": "Tuez le seigneur de guerre",
+						  "description": "[i]Objectif de fin de partie[/i]\nMarquez 6 points de victoire à la fin de la bataille si le SEIGNEUR DE GUERRE ennemi a été détruit."
+						}
+					]
+				},
+				{
+				  "name": "Pas de Pitié, Pas de Répit",
+				  "objectives": 
+					[
+						{
+						  "id": "EW.01.02.01",
+						  "name": "Erodez leurs rangs",
+						  "description": "[i]Objectif de fin de partie[/i]\nSi vous choisissez cet objectif, gardez un compte de points de pertes infligées; chaque fois qu'une figurine ennemie est détruite, ajoutez 1 à ce compte (ajoutez 10 à ce compte à la place si la figurine qui a été détruite a une caractéristique de PV de 10 ou plus). Une figurine peut, si elle est ressuscitée pour n'importe quelle raison (ex: elle a été détruite puis a été remise en jeu sur le champ de bataille), potentiellement octroyer plusieurs points à ce compte( en supposant qu'elle a été ressuscitée puis détruire à nouveau).\nA la fin de la bataille, divisez par 10 votre compte de points de pertes infligées en arrondissant à l'entier inférieur; le résultat est le nombre de points de victoire marqués."
+						},
+						{
+						  "id": "EW.01.02.02",
+						  "name": "Attrition",
+						  "description": "[i]Objectif progressif[/i]\nMarquez 4 points de victoire à la fin du round de bataille si plus d'unités ennemies que d'unités amies ont été détruites à ce round de bataille."
+						},
+						{
+						  "id": "EW.01.02.03",
+						  "name": "Combattons tant que nous tenons",
+						  "description": "[i]Objectif de fin de partie[/i]\nSi vous choisissez cet objectif, alors avant la bataille, identifiez les 3 figurines de votre armée (figurines avec le Rôle Tactique Fortification exclues) qui ont la valeur en points la plus élevée, et notez-les sur votre feuille d'armée (si deux figurines ou plus sont à égalité, vous pouvez choisir parmi elles). Si votre armée compte trois figurines ou moins, alors vous devez à la place identifier toutes les figurines de votre armée. La valeur en points d'une figurine inclut les points de toutes ses armes et équipements. Vous marquez 5 points de victoire pour chacune de ces figurines qui se trouve sur le champ de bataille à la fin de la bataille."
+						},
+						{
+						  "id": "EW.01.02.04",
+						  "name": "Premier sang",
+						  "description": "[i]Objectif de fin de partie[/i]\nMarquez 5 points de victoire à la fin de la bataille si une ou plusieurs unités ennemies ont été détruites au 1er round de bataille, et marquez 3 points de victoire supplémentaires si plus d'unités ennemies que d'unités amies ont été détruites au 1er round de bataille."
+						}
+					]
+				},
+				{
+				  "name": "Suprématie militaire",
+				  "objectives": 
+					[
+						{
+					  "id": "EW.01.03.01",
+					  "name": "Sur tous les Fronts",
+					  "description": "[i]Objectif progressif[/i]\nMarquez 2 points de victoire à la fin de votre tour si vous avez 1 unité ou plus de votre armée entièrement dans 3 quarts de table différents, et que ces unités sont toutes à plus de 6\" du centre du champ de bataille. Marquez 3 points de victoire à la place si vous avez 1 unité ou plus de votre armée entièrement dans chaque quart de table, et que toutes ces unités sont à plus de 6\" du centre du champ de bataille."
+					},
+					{
+					  "id": "EW.01.03.02",
+					  "name": "Briseur de Ligne",
+					  "description": "[i]Objectif progressif[/i]\nMarquez 4 points de victoire à la fin de votre tour si 2 unités ou plus de votre armée (AERODYNES exclus) sont entièrement dans la zone de déploiement adverse."
+					},
+					{
+					  "id": "EW.01.03.03",
+					  "name": "Domination",
+					  "description": "[i]Objectif progressif[/i]\nMarquez 3 points de victoire si vous contrôlez plus de la moitié du nombre total de pions objectif sur le champ de bataille à la fin de votre tour."
+						}
+					]
+				},
+				{
+				  "name": "Opérations Clandestines",
+				  "objectives": 
+					[
+						{
+					  "id": "EW.01.04.01",
+					  "name": "Inspecter le terrain",
+					  "description": "[i]Objectif progressif[/i]\nMarquez 3 points de victoire chaque fois qu'une unité de votre armée accomplit l'action suivante:[b]Inspecter le Terrain (Action):[/b] 1 unité d'INFANTERIE (PERSONNAGES exclus) de votre armée peut commencer cette action à la fin de votre phase de Mouvement  si elle est à 6\" du centre du champ de bataille et qu'aucune unité ennemie (AERODYNES exclus) ne se trouve à 6\" du centre du champ de bataille. L'action est accomplie à la fin de votre tour."
+					},
+					{
+					  "id": "EW.01.04.02",
+					  "name": "Réparer la balise de téléportation",
+					  "description": "[i]Objectif progressif[/i]\nMarquez 5 points de victoire chaque fois qu'une unité de votre armée accomplit l'action suivante:[b]Réparer la Balise de Téléportation (Action):[/b] 1 unité d'INFANTERIE de votre armée peut commencer cette action à la fin de votre phase de Mouvement si elle est entièrement dans la zone de déploiement adverse. L'action est accomplie à la fin de votre prochaine phase de Commandement, si l'unité qui la tente est toujours entièrement dans la zone de déploiement adverse."
+					},
+					{
+					  "id": "EW.01.04.03",
+					  "name": "Levez haut les étendards",
+					  "description": "[i]Objectif progressif et de fin de partie[/i]\nSi vous choisissez cet objectif, alors les unités de votre armée peuvent accomplir l'action suivante: [b]Lever les Etendards (Action):[/b] 1 unité d'INFANTERIE ou plus de votre armée peut commencer cette action à la fin de votre phase de Mouvement. Chaque unité de votre armée qui commence cette action doit être à portée d'un pion objectif différent sur lequel aucun de vos étendards n'a été levé. Une unité ne peut pas commencer cette action s'il y a la moindre unité ennemie (AERODYNES exclus) à portée du même pion objectif. L'action est accomplie à la fin de votre tour. Si cette action est accomplie, on dit qu'un étendard de votre armée a été levé sur ce pion objectif (l'étendard est 'retiré' si votre adversaire contrôle le pion objectif au début de n'importe quelle phase).\n Vous marquez 1 point de victoire à la fin de chacune de vos phases de Commandement, et 1 point de victoire à la fin de la bataille, pour chaque pion objectif du champ de bataille sur lequel un de vos étendards a été levé."
+						}
+					]
+				},
+				{
+				  "name": "Art du Warp",
+				  "objectives": 
+					[
+						{
+						  "id": "EW.01.05.01",
+						  "name": "Interrogation Mentale",
+						  "description": "[i]Objectif progressif[/i]\nMarquez 3 points de victoire à chaque fois que vous accomplissez l'action psychique suivante: [b]Interrogation Mentale (Action Psychique - Charge Warp 4)[/b]: 1 unité PERSONNAGE PSYKER de votre armée peut tenter d'accomplir cette action psychique à votre phase psychique si elle est à 18\" d'une ou plusieurs figurines PERSONNAGES ennemies."
+						},
+						{
+						  "id": "EW.01.05.02",
+						  "name": "Rituel Psychique",
+						  "description": "[i]Objectif de fin de partie[/i]\nMarquez 15 points de victoire à la fin de la bataille si une même unité de votre armée a accompli l'action psychique suivante 3 fois durant la partie: [b]Rituel Psychique (Action Psychique - Charge Warp 3)[/b]: 1 unité PERSONNAGE PSYKER de votre armée peut tenter d'accomplir cette action psychique à votre phase psychique si elle est à 6\" du centre du champ de bataille."
+						},
+						{
+						  "id": "EW.01.05.03",
+						  "name": "Abhorrez le Sorcier",
+						  "description": "[i]Objectif de fin de partie[/i] Vous ne pouvez pas choisir cet objectif secondaire si votre armée inclut la moindre unité PSYKER. Marquez 5 points de victoire à la fin de bataille pour chaque unité PERSONNAGE PSYKER ennemie qui a été détruite, et 3 points de victoire pour chaque autre unité PSYKER ennemie qui a été détruite.\n"
+						}
+					]
+				}
+			]
+		},
+		{
+		  "name": "Specifique à la mission",
+		  "categories": 
+			[
+				{
+				  "name": "Attaque incisive",
+					  "objectives": 
+					[
+						{
+						  "id": "EW.00.01.01",
+						  "name": "Assaut chirurgical",
+						  "description": "[i]Objectif progressif[/i]\nMarquez 5 points de victoire si vous contrôlez le pion objectif dans la zone de déploiement adverse à la fin de votre tour."
+						}
+					]
+				},
+				{
+				  "name": "Eclaireurs",
+					  "objectives": 
+					[
+						{
+						  "id": "EW.00.02.01",
+						  "name": "Sondage",
+						  "description": "[i]Objectif progressif[/i]\nMarquez 5 points de victoire si vous contrôlez les deux pions objectifs qui ne sont dans aucune des zones de déploiement des joueurs à la fin de votre phase de Commandement. Cet objectif secondaire ne peut pas être marqué au 1er round de bataille."
+						}
+					]
+				},
+				{
+				  "name": "Encerclement",
+					  "objectives": 
+					[
+						{
+						  "id": "EW.00.03.01",
+						  "name": "Encercler",
+						  "description": "[i]Objectif progressif[/i]\nMarquez 3 points de victoire si vous avez au moins une unité de votre armée (AERODYNES exclus) entièrement à 6\" de votre bord du champ de bataille et au moins 1 unité de votre armée (AERODYNES exclus) entièrement à 6\" du bord du champ de bataille adverse à la fin de votre tour (marquez 5 points de victoire à la place si 1 de ces unités est de surcroît entièrement dans la zone de déploiement adverse)."
+						}
+					]
+				}
+		    ]
+		}
+	]
 }
